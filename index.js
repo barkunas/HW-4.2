@@ -25,7 +25,7 @@ function addOnStage() {
         '<p class="text">'+drinkStorage[e]['ingredients']+'</p>'+
         '<div onclick="'+
         'deleteFromStage(\''+e+'\')'+
-        ';" id="btn" class="button7">удалить рецепт</div>'
+        ';" id="btn" class="buttonClose">удалить рецепт</div>'
     }
 }
 function deleteFromStage(key){
