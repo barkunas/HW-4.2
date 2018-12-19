@@ -79,4 +79,233 @@ div.button7 {
     background: rgb(143, 143, 143);
     box-shadow: 0 3px rgb(126, 126, 126) inset;
   }
-
+  div.buttonClose {
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 -3px rgb(201, 201, 201) inset;
+    transition: 0.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
+  div.buttonClose:hover { background: rgb(179, 179, 179); }
+  div.buttonClose:active {
+    background: rgb(143, 143, 143);
+    box-shadow: 0 3px rgb(126, 126, 126) inset;
+  }
+.box {
+	width:627px;
+	float:left;
+	display:inline;
+	background:#000;
+	padding:11px;
+	margin:0 10px 11px 0;
+	position:relative;
+}
+.box .box-image {
+	float:left;
+	display:inline;
+	width:119px;
+	height:85px;
+	margin-right:11px;
+	position:relative;
+}
+.box .box-body .posted {
+    font-size:20px;
+	color:#7f7f7f;
+	text-transform:uppercase;
+}
+.box .box-body .Alco {
+    font-size:10px;
+    color:red;
+    text-transform:uppercase;
+}
+.box .box-body .AlcoFree {
+    font-size:10px;
+    color:green;
+    text-transform:uppercase;
+}
+.box h2 {
+	font-size:21px;
+	line-height:24px;
+    font-weight:normal;
+    color:white;
+	font-family:"Times New Roman", Arial, sans-serif;
+}
+.box h2.title {
+	margin-bottom:5px;
+}
+.box .box-body .text {
+	font-size:13px;
+	line-height:17px;
+	color:#c6be95;
+}
+.box .box-body a {
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+.box .box-body a:hover {
+	text-decoration:none;
+}
+.box .box-body .continue {
+	font-size:9px;
+	color:#ffa200;
+}
+.box .box-body .comments {
+	font-size:9px;
+	color:#fff;
+	background:url(images/ico-comments.gif) no-repeat right 2px;
+	padding-right:12px;
+	margin-right:5px;
+}
+.box .overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:119px;
+	height:85px;
+	background:url(images/overlay.png) no-repeat 0 0;
+	display:none;
+	z-index:10;
+	cursor:pointer;
+}
+.box .close {
+	position:absolute;
+	top:4px;
+	right:4px;
+	width:7px;
+	height:7px;
+	background:url(images/close-btn.gif) no-repeat 0 0;
+	display:block;
+	z-index:10;
+}
+.box-featured .box-image {
+	width:426px;
+	height:264px;
+}
+.box-featured .box-body {
+	float:left;
+	display:inline;
+	width:180px;
+}
+.box-featured .box-body .text {
+	padding-bottom:5px;
+	line-height:19px;
+}
+.box-featured .mark-featured {
+	position:absolute;
+	top:0;
+	right:0;
+	width:137px;
+	height:138px;
+	background:url(images/mark-featured.png) no-repeat 0 0;
+	display:block;
+	z-index:10;
+}
+.box-small {
+	width:298px;
+}
+.box-small .box-body h2 {
+	padding-bottom:10px;
+}
+.box {
+	width:627px;
+	float:left;
+	display:inline;
+	background:#000;
+	padding:11px;
+	margin:0 10px 11px 0;
+	position:relative;
+}
+.box .box-image {
+	float:left;
+	display:inline;
+	width:119px;
+	height:85px;
+	margin-right:11px;
+	position:relative;
+}
+.box h2 {
+	font-size:21px;
+	line-height:24px;
+	font-weight:normal;
+	font-family:"Times New Roman", Arial, sans-serif;
+}
+.box h2.title {
+	margin-bottom:5px;
+}
+.box .box-body .text {
+	font-size:13px;
+	line-height:17px;
+	color:#c6be95;
+}
+.box .box-body a {
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+.box .box-body a:hover {
+	text-decoration:none;
+}
+.box .box-body .continue {
+	font-size:9px;
+	color:#ffa200;
+}
+.box .box-body .comments {
+	font-size:9px;
+	color:#fff;
+	background:url(images/ico-comments.gif) no-repeat right 2px;
+	padding-right:12px;
+	margin-right:5px;
+}
+.box .overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:119px;
+	height:85px;
+	background:url(images/overlay.png) no-repeat 0 0;
+	display:none;
+	z-index:10;
+	cursor:pointer;
+}
+.box .close {
+	position:absolute;
+	top:4px;
+	right:4px;
+	width:7px;
+	height:7px;
+	background:url(images/close-btn.gif) no-repeat 0 0;
+	display:block;
+	z-index:10;
+}
+.box-featured .box-image {
+	width:426px;
+	height:264px;
+}
+.box-featured .box-body {
+	float:left;
+	display:inline;
+	width:180px;
+}
+.box-featured .box-body .text {
+	padding-bottom:5px;
+	line-height:19px;
+}
+.box-featured .mark-featured {
+	position:absolute;
+	top:0;
+	right:0;
+	width:137px;
+	height:138px;
+	background:url(images/mark-featured.png) no-repeat 0 0;
+	display:block;
+	z-index:10;
+}
+.box-small {
+	width:298px;
+}
+.box-small .box-body h2 {
+	padding-bottom:10px;
+}
